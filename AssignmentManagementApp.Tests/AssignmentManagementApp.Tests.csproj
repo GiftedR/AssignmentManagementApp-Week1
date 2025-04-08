@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TaskManagementApp\TaskManagementApp.csproj" />
+    <ProjectReference Include="..\AssignmentManagementApp\AssignmentManagementApp.csproj" />
   </ItemGroup>
 
   <ItemGroup>

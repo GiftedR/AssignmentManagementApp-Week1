@@ -1,1 +1,1 @@
-# TaskManagementApp-SOL
+# AssignmentManagementApp-SOL

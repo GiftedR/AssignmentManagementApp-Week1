@@ -1,4 +1,4 @@
-﻿namespace TaskManagementApp
+﻿namespace AssignmentManagementApp
 {
     public class Program
     {

@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace TaskManagementApp.Tests
+namespace AssignmentManagementApp.Tests
 {
-    public class TaskTests
+    public class AssignmentTests
     {
         [Fact]
         public void Should_Have_A_Title()
         {
-            Task t = new Task(); // Task does already exisit, It is used for async tasks using Task.Run();
+            Assignment t = new Assignment(); // Task does already exisit, It is used for async tasks using Task.Run();
             Assert.NotNull(t.Title);
 
         }
