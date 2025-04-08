@@ -1,10 +1,10 @@
 ﻿namespace AssignmentManagementApp
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Hello Testing!");
-        }
-    }
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Hello Testing!");
+		}
+	}
 }

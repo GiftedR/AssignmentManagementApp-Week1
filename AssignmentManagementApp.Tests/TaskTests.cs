@@ -10,9 +10,8 @@ namespace AssignmentManagementApp.Tests
         [Fact]
         public void Should_Have_A_Title()
         {
-            Assignment t = new Assignment(); // Task does already exisit, It is used for async tasks using Task.Run();
+            Assignment t = new Assignment("Week 1 Lab");
             Assert.NotNull(t.Title);
-
         }
     }
 }
