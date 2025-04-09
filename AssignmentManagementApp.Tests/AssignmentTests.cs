@@ -10,7 +10,10 @@ namespace AssignmentManagementApp.Tests
         [Fact]
         public void Should_Have_A_Title()
         {
-            Assignment t = new Assignment("Week 1 Lab");
+            Assignment t = new Assignment
+            {
+                Title = "Testing Assignment"
+            };
             Assert.NotNull(t.Title);
         }
     }
